@@ -1,0 +1,67 @@
+
+body {
+	color: #66F;
+    background-color: #6EA2B1;
+    text-align:center;
+	font-family: Gill Sans, Verdana, Helvetica, sans-serif;
+	font-size: 12pt;
+	margin-left: 10%;
+	margin-right: 10%;
+	}
+
+h1.title {
+	font-size: 36pt;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align:center;
+	margin-top: 15px;
+	margin-bottom: 0px; 
+	}
+
+h2.title {
+	font-size: 14pt;
+	font-weight: normal;
+	text-decoration: none;
+	font-variant: small-caps;
+	padding-bottom: 0px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+div { background-color:#5ccdc9; text-align:center; margin:0 auto; }
+
+ul { margin:0px; padding:0; list-style:none; }
+li { margin-left:20px; margin-bottom:20px; padding:0;  }
+
+a { text-decoration:none; font-weight: bold; }
+a:link, a:visited { color: #fff; }	
+a:link.resume , a:visited.resume  { color:black; text-decoration:underline; }	
+a:hover, a:hover.resume { color: #fff; background-color: pink; text-decoration: underline; padding:3px; }	
+
+img {border: solid 2px white; }
+
+.printonly { display:none; }
+.pagebreak { display:none; }
+#printheader { display:none; }
+
+#wrap {width:940px; margin:0 auto; background:white; border: solid 2px black;  }
+
+#header { background:white; padding:5px 10px;  }
+
+#nav { background:pink; padding:5px 10px; text-align:center; }
+
+#nav li  { display: inline; list-style-type: none; padding-right: 20px; font-size: 14pt; font-weight:normal; font-variant:small-caps;}
+
+#resume {background:#E6DB7A; width:900px; margin:auto; padding:20px; text-align:left; }
+
+#footer { background:pink; clear:both; padding:5px 10px; }
+
+#footer p { margin:0; font-style:italic; text-align:center; font-size:small; }
+
+#imagebar {background:#FFFFFF; padding:10px; text-align: center;}
+
+/* Star hack for IE 6 bug */
+* html #footer { height:1px; }
+
+
+
